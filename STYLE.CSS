@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: url(BGTAYLOR.webp);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    padding: 15 px 0;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.navbar .logo{
+    width: 250px;
+    cursor: pointer;
+    margin-top: 4%;
+    margin-left: 2%;
+}
+
+ul{
+    margin-top: -4%;
+}
+
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #674188;
+    margin-top: -3%;
+}
+
+ul li a:hover{
+    color: #F7EFE5;
+}
+
+.INFORMATION{
+    margin-left: 7%;
+    margin-top: 2%;
+}
+
+.INFORMATION h2{
+    font-size: 65px;
+    color: rgb(36, 32,30);
+}
+
+.INFORMATION h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+.INFORMATION span{
+    color: #6C48C5;
+}
+
+.INFORMATION P{
+    color: black;
+    
+}
+
+.image{
+    width: 30%;
+    height: 70%;
+    position: fixed;
+    right: 0px;
+    bottom: 0;
+
+}
+
+.image img{
+    position: absolute;
+    height: 100%;
+    left: 60%;
+    transform: translate(-55%);
+    bottom: 0;
+    transition: RIGHT 2s ease;
+}
+
+
+
